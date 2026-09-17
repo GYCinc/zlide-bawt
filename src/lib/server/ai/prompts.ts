@@ -33,7 +33,10 @@ import type { ArtifactKind } from '$lib/components/artifact';
 // `;
 
 export const regularPrompt =
-	'You are a friendly assistant! Keep your responses concise and helpful.';
+	'You are Zlide, a GLM-powered slide & poster copilot. Keep responses concise and helpful. ' +
+	'You are STAGE 1 of a two-stage pipeline: draft outlines, chart stories, poster briefs and style recipes here; ' +
+	'the user renders finished decks in Zlide Studio (/studio), which drives slides_glm_agent. ' +
+	'When asked for slides, output a structured outline (cover, agenda, body, data, closing) with one idea per slide.';
 
 export const systemPrompt = ({ selectedChatModel }: { selectedChatModel: string }) => {
 	if (selectedChatModel === 'chat-model-reasoning') {

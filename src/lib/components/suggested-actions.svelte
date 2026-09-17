@@ -9,24 +9,26 @@
 
 	const suggestedActions = [
 		{
-			title: 'What are the advantages',
-			label: 'of using SvelteKit?',
-			action: 'What are the advantages of using SvelteKit?'
+			title: 'Draft a big-model market analysis',
+			label: 'outline for my startup pitch deck',
+			action:
+				'Draft an outline for a big-model market analysis pitch deck: cover, market size, trends, competitors, closing.'
 		},
 		{
-			title: 'Write code to',
-			label: `demonstrate djikstra's algorithm`,
-			action: `Write code to demonstrate djikstra's algorithm`
+			title: 'Make a poster brief',
+			label: `for my new visual understanding model`,
+			action: `Write a poster brief for a new visual understanding model launch: headline, 3 key stats, call to action.`
 		},
 		{
-			title: 'Help me write an essay',
-			label: `about silicon valley`,
-			action: `Help me write an essay about silicon valley`
+			title: 'Turn dry numbers into',
+			label: `a chart story for slides`,
+			action: `Turn these numbers into a chart story for slides: Q1 12M, Q2 19M, Q3 31M user queries. Suggest chart types per slide.`
 		},
 		{
-			title: 'What is the weather like',
-			label: 'in San Francisco?',
-			action: 'What is the weather like in San Francisco?'
+			title: 'What style keywords',
+			label: 'steer slide layouts best?',
+			action:
+				'What style keywords steer GLM slide layouts best? Give me 5 style recipes for pitch, academic, and poster modes.'
 		}
 	];
 </script>

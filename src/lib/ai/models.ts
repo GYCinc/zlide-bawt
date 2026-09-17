@@ -1,4 +1,4 @@
-export const DEFAULT_CHAT_MODEL: string = 'chat-model';
+export const DEFAULT_CHAT_MODEL: string = 'chat-model-glm-flash';
 
 interface ChatModel {
 	id: string;
@@ -8,18 +8,8 @@ interface ChatModel {
 
 export const chatModels: Array<ChatModel> = [
 	{
-		id: 'chat-model-small',
-		name: 'Small model',
-		description: 'Small model for fast, lightweight tasks'
-	},
-	{
-		id: 'chat-model-large',
-		name: 'Large model',
-		description: 'Large model for complex, multi-step tasks'
-	},
-	{
-		id: 'chat-model-reasoning',
-		name: 'Reasoning model',
-		description: 'Uses advanced reasoning'
+		id: 'chat-model-glm-flash',
+		name: 'GLM 5.3 Flash',
+		description: 'The one true model — thinks, counts, ~$0.00002 a preflight'
 	}
 ];

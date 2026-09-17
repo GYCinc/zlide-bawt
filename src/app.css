@@ -3,86 +3,88 @@
 @tailwind utilities;
 
 @layer base {
+	/* SANDS OF TIME — reddish galactic night (ported from Zlides22).
+	   Deep charcoal void, burnt-orange sun accent. One sky for light and dark. */
 	:root {
-		--background: 0 0% 100%;
-		--foreground: 240 10% 3.9%;
+		--background: 200 6% 6%; /* #0f1112 */
+		--foreground: 210 17% 91%; /* #e5e7eb */
 
-		--muted: 240 4.8% 95.9%;
-		--muted-foreground: 240 3.8% 46.1%;
+		--muted: 210 7% 10%; /* #16181a */
+		--muted-foreground: 215 12% 65%; /* #9ca3af */
 
-		--popover: 0 0% 100%;
-		--popover-foreground: 240 10% 3.9%;
+		--popover: 210 7% 10%;
+		--popover-foreground: 210 17% 91%;
 
-		--card: 0 0% 100%;
-		--card-foreground: 240 10% 3.9%;
+		--card: 210 7% 10%; /* #16181a */
+		--card-foreground: 210 17% 91%;
 
-		--border: 240 5.9% 90%;
-		--input: 240 5.9% 90%;
+		--border: 210 8% 19%; /* #2e3236 */
+		--input: 210 8% 19%;
 
-		--primary: 240 5.9% 10%;
-		--primary-foreground: 0 0% 98%;
+		--primary: 16 100% 60%; /* #ff6b35 */
+		--primary-foreground: 200 6% 6%;
 
-		--secondary: 240 4.8% 95.9%;
-		--secondary-foreground: 240 5.9% 10%;
+		--secondary: 210 9% 13%; /* #1e2124 */
+		--secondary-foreground: 210 17% 91%;
 
-		--accent: 240 4.8% 95.9%;
-		--accent-foreground: 240 5.9% 10%;
+		--accent: 16 100% 60%;
+		--accent-foreground: 200 6% 6%;
 
-		--destructive: 0 84.2% 60.2%;
-		--destructive-foreground: 0 0% 98%;
+		--destructive: 347 89% 60%; /* #f43f5e */
+		--destructive-foreground: 210 17% 91%;
 
-		--ring: 240 10% 3.9%;
+		--ring: 16 100% 60%;
 
-		--radius: 0.5rem;
+		--radius: 0.375rem;
 
-		--sidebar-background: 0 0% 98%;
-		--sidebar-foreground: 240 5.3% 26.1%;
-		--sidebar-primary: 240 5.9% 10%;
-		--sidebar-primary-foreground: 0 0% 98%;
-		--sidebar-accent: 240 4.8% 95.9%;
-		--sidebar-accent-foreground: 240 5.9% 10%;
-		--sidebar-border: 220 13% 91%;
-		--sidebar-ring: 217.2 91.2% 59.8%;
+		--sidebar-background: 200 6% 6%;
+		--sidebar-foreground: 210 17% 91%;
+		--sidebar-primary: 16 100% 60%;
+		--sidebar-primary-foreground: 200 6% 6%;
+		--sidebar-accent: 210 9% 13%;
+		--sidebar-accent-foreground: 210 17% 91%;
+		--sidebar-border: 210 8% 19%;
+		--sidebar-ring: 16 100% 60%;
 	}
 
 	.dark {
-		--background: 240 10% 3.9%;
-		--foreground: 0 0% 98%;
+		--background: 200 6% 6%;
+		--foreground: 210 17% 91%;
 
-		--muted: 240 3.7% 15.9%;
-		--muted-foreground: 240 5% 64.9%;
+		--muted: 210 7% 10%;
+		--muted-foreground: 215 12% 65%;
 
-		--popover: 240 10% 3.9%;
-		--popover-foreground: 0 0% 98%;
+		--popover: 210 7% 10%;
+		--popover-foreground: 210 17% 91%;
 
-		--card: 240 10% 3.9%;
-		--card-foreground: 0 0% 98%;
+		--card: 210 7% 10%;
+		--card-foreground: 210 17% 91%;
 
-		--border: 240 3.7% 15.9%;
-		--input: 240 3.7% 15.9%;
+		--border: 210 8% 19%;
+		--input: 210 8% 19%;
 
-		--primary: 0 0% 98%;
-		--primary-foreground: 240 5.9% 10%;
+		--primary: 16 100% 60%;
+		--primary-foreground: 200 6% 6%;
 
-		--secondary: 240 3.7% 15.9%;
-		--secondary-foreground: 0 0% 98%;
+		--secondary: 210 9% 13%;
+		--secondary-foreground: 210 17% 91%;
 
-		--accent: 240 3.7% 15.9%;
-		--accent-foreground: 0 0% 98%;
+		--accent: 16 100% 60%;
+		--accent-foreground: 200 6% 6%;
 
-		--destructive: 0 62.8% 30.6%;
-		--destructive-foreground: 0 0% 98%;
+		--destructive: 347 89% 60%;
+		--destructive-foreground: 210 17% 91%;
 
-		--ring: 240 4.9% 83.9%;
+		--ring: 16 100% 60%;
 
-		--sidebar-background: 240 5.9% 10%;
-		--sidebar-foreground: 240 4.8% 95.9%;
-		--sidebar-primary: 224.3 76.3% 48%;
-		--sidebar-primary-foreground: 0 0% 100%;
-		--sidebar-accent: 240 3.7% 15.9%;
-		--sidebar-accent-foreground: 240 4.8% 95.9%;
-		--sidebar-border: 240 3.7% 15.9%;
-		--sidebar-ring: 217.2 91.2% 59.8%;
+		--sidebar-background: 200 6% 6%;
+		--sidebar-foreground: 210 17% 91%;
+		--sidebar-primary: 16 100% 60%;
+		--sidebar-primary-foreground: 200 6% 6%;
+		--sidebar-accent: 210 9% 13%;
+		--sidebar-accent-foreground: 210 17% 91%;
+		--sidebar-border: 210 8% 19%;
+		--sidebar-ring: 16 100% 60%;
 	}
 }
 
@@ -91,7 +93,27 @@
 		@apply border-border;
 	}
 	body {
-		@apply bg-background text-foreground;
+		@apply bg-background text-foreground antialiased;
+	}
+	::selection {
+		background: rgb(255 107 53 / 0.3);
+		color: #fff;
+	}
+	/* Quiet, seamless dark scrollbars everywhere */
+	* {
+		scrollbar-width: thin;
+		scrollbar-color: rgb(255 255 255 / 0.12) transparent;
+	}
+	::-webkit-scrollbar {
+		width: 8px;
+		height: 8px;
+	}
+	::-webkit-scrollbar-thumb {
+		background: rgb(255 255 255 / 0.12);
+		border-radius: 4px;
+	}
+	::-webkit-scrollbar-track {
+		background: transparent;
 	}
 
 	@font-face {
